@@ -1,5 +1,3 @@
-<b:if cond='data:blog.url != "https://YOUR-NEW-URL.com/"'>
-  <script>
-    window.location.replace("https://YOUR-NEW-URL.com/");
-  </script>
-</b:if>
+if (window.location.hostname === "yourkalon.blogspot.com") {
+  window.location.replace("https://your-new-site.com/");
+}
