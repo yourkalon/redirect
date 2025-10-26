@@ -1,3 +1,1 @@
-if (window.location.hostname === "yourkalon.blogspot.com") {
-  window.location.replace("https://your-new-site.com/");
-}
+window.location.replace("https://YOUR-NEW-URL.com/");
